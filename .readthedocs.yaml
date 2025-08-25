@@ -14,7 +14,7 @@ build:
 python:
   install:
     - method: pip
-      path: ksenia_sandbox
+      path: sphinx
  
 # Build PDF & ePub
 #formats:
