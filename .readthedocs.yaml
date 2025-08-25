@@ -1,8 +1,5 @@
 version: 2
 
-sphinx:
-  configuration: ksenia_sandbox/doc/conf.py
-
 build:
   os: ubuntu-22.04
   tools:
@@ -11,10 +8,12 @@ build:
      # nodejs: "18"
      # rust: "1.64"
 
+sphinx:
+  configuration: docs/conf.py
+
 python:
-  install:
-    - method: pip
-      path: sphinx
+   install:
+   - requirements: docs/requirements.txt
  
 # Build PDF & ePub
 #formats:

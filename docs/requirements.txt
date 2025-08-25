@@ -1,6 +1,5 @@
 # Defining the exact version will make sure things don't break
 
-ksenia_sandbox[docs] @ git+https://github.com/KseniaDukhanina/ksenia_sandbox.git
 sphinx==8.0.2
 sphinx-rtd-theme>=3.0.0
 readthedocs-sphinx-search==0.3.1
