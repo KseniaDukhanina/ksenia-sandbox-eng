@@ -40,12 +40,9 @@ release = 'Ver. 4'
 # Usually you set "language" from the command line for these cases.
 
 # Список поддерживаемых языков
-languages = ['ru', 'en']  # Полный список поддерживаемых языков
-language = 'ru'  # Основной язык
-locale_dirs = ['locale/']  # Path to translate lang
-gettext_compact = False    # Отключаем компактную запись
-gettext_auto_build = True  
-# gettext_uuid = True   
+language = 'en'
+locale_dirs = ['locale/']
+gettext_compact = False
 
 # -- General configuration ---------------------------------------------------
 
@@ -63,12 +60,6 @@ extensions = [
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
-
-html_context = {
-    'current_language': 'ru',
-    'languages': ['ru', 'en'],  # ЯВНО перечислите языки
-    'display_github': True,
-}
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
